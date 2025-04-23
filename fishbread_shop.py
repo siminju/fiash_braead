@@ -21,7 +21,7 @@ def order_bread ():
             print(f"{bread_type}의 재고가 {bread_count}개 추가되어, 현재{stock[bread_type]}개 입니다")
         else:
             print("정신을 똑바로 차리시고 현재 {stock}[bread_type]")
-붕어빵 admin_
+
 def admin_mode():
        while True:
             bread_type = input("주문할 붕어빵을 선택하세요(팥붕어빵, 슈크림붕어빵, 초코붕어빵) 안에 뒤로가길 원하시면 뒤로가기")
@@ -60,3 +60,5 @@ while True:
         order_bread()
     elif mode == "관리자":
         admin_mode()
+
+
